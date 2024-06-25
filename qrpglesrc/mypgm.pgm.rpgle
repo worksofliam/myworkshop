@@ -1,8 +1,10 @@
 **free
 
+/copy 'qrpgleref/constants.rpgleinc'
+
 dcl-s mytext char(20);
 
-mytext = 'Hello from the world';
+mytext = MYLABEL;
 
 dsply mytext;
 
